@@ -1,0 +1,66 @@
+# Site settings
+title: MyHusky's Blog
+url: ""    # the protocol and hostname of your site
+baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+#timezone: Asia/Chongqing
+description: >
+  路漫漫其修远兮，吾将上下而求索。
+
+# Your information
+email: myhasky@hotmail.com
+author: Jia Qi
+avatar: "/img/photo.jpg"
+profile: A Student <i class="icofont-location-pin"></i> In Xi'an.
+#twitter_username: twitter_username
+github_username:  myhusky
+weibo_username: 6087295124
+email_username: mailto:MyHasky@hotmail.com
+hearthstone_username: 我想养条哈士奇#5537
+
+profile_links:
+  Email: "mailto:MyHasky@hotmail.com"
+  Weibo: "https://weibo.com/u/6087295124"
+  # GitHub: "https://github.com/myhusky"
+  # Weibo: "https://www.weibo.com/u/6087295124"
+  # You can add more profile links above, or edit _includes/sidebar.html 
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: MyHusky   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+excerpt_separator: <!--more-->
+
+header:
+  links:             # Links on the header. Link to in-site page with a slash as prefix
+    Archives: /archives/
+    Category: /category/
+    Links: /link/
+    About Me: /about/
+
+permalink: /post/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
