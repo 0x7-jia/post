@@ -10,7 +10,7 @@ permalink: /category/
   <ul class="cates">
     {% for cate in site.categories %}
     <li>
-        <a href="#{{ cate[0] }}">{{ cate[0] }}</a> <sup style="color: red;">{{ cate[1].size }}</sup>
+        <a href="#{{ cate[0] }}"><i class="icon-hash"></i>{{ cate[0] }}</a> <sup style="color: red;">{{ cate[1].size }}</sup>
     </li>
     {% endfor %}
 </ul>
@@ -20,11 +20,11 @@ permalink: /category/
     <div class="archive-group">
       {% capture category_name %}{{ category | first }}{% endcapture %}
       <ul id="{{ category_name | slugize }}" class="tags-expo-posts">
-        <h3 class="ptag-h3">{{ category_name | upcase }}</h3>
+        <h4 class="ptag-h3">{{ category_name | upcase }}</h4>
         <a name="{{ category_name | slugize }}"></a>
         {% for post in site.categories[category_name] %}
         <li class="archive-item">
-          <a href="{{ root_url }}{{ post.url }}">{{post.title}} <small>{{ post.date  | date_to_string }}</small></a>
+          <a href="{{ root_url }}{{ post.url }}" class="font-size-sm">{{post.title}} <small>{{ post.date  | date_to_string }}</small></a>
         </li>
         {% endfor %}
       </ul>

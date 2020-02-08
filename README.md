@@ -1,3 +1,7 @@
+## 感谢
+
+- 这个博客使用了<a href="http://laobubu.net" target="_blank"> laobubu<i class="icon-link1"></i> </a>创作的主题<a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank"> EasyBook<i class="icon-link1"></i> </a>非常感谢他的付出。
+
 ## License
 
 ```

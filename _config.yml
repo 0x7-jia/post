@@ -1,5 +1,5 @@
 # Site settings
-title: MyHusky's Blog
+title: 念念不忘的小站
 url: ""    # the protocol and hostname of your site
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
@@ -33,10 +33,10 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    Archives: /archives/
-    Category: /category/
-    Links: /link/
-    About Me: /about/
+    归档: /archives/
+    分类: /category/
+    友链: /link/
+    关于我: /about/
 
 permalink: /post/:title
 plugins:

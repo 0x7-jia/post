@@ -238,7 +238,7 @@ $hide-sidebar-screen-width: 1120px;
 @include media-query($on-palm) {
 	.header {
 		&, .site-nav{
-			text-align:center;
+			// text-align:center;
 		}
 		.site-title {
 			float: none;
