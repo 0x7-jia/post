@@ -4,10 +4,14 @@
     <div id="sidebar-toggle">TOC</div>
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <nav class="site-nav">
-      {% for link in site.header.links %}{% assign url = link[1] %}
+      <!-- {% for link in site.header.links %}{% assign url = link[1] %}
         {% assign urlchk = url | split: "/" %}{% if urlchk[0] == '' and urlchk[1] != '' %}{% assign uprefix = site.baseurl %}{% else %}{% assign uprefix = ''%}{% endif %}
         <a class="page-link" href="{{ url | prepend: uprefix }}">{{ link[0] }}</a>
-      {% endfor %}
+      {% endfor %} -->
+        <a class="page-link" href="/category/">分类</a>
+        <a class="page-link" href="/archives/">归档</a>
+        <a class="page-link" href="/link/">友链</a>
+        <a class="page-link" href="/about/">关于我</a>
     </nav>
   </div>
 </header>
