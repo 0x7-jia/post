@@ -42,7 +42,6 @@ permalink: /post/:title
 plugins:
  - jekyll-paginate
  - jekyll-gist
- - jemoji
 
 # Build settings
 paginate: 5
