@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-# 博客统计信息
+# 统计信息
 
 - 文章数目 <span class="color_ff0b5">{{ site.posts.size }}</span> 篇
 - 运行天数 <span id="htmer_time" class="color_ff0b5"></span> 天
 - 最后活动 <span id="activity_time" data-year="{{ site.posts[0].date| slice: 0,4 }}" data-month="{{ site.posts[0].date| slice: 5,2 }}" data-day="{{ site.posts[0].date| slice: 8,2 }}" class="color_ff0b5"></span> 天前
+- 总访问量 <span id="busuanzi_value_site_pv" class="color_ff0b5">0</span>次
 
 # 关于我
 
@@ -21,8 +22,9 @@ permalink: /about/
 
 - 这个站点使用了<a href="http://laobubu.net" target="_blank"> laobubu<i class="icon-link1"></i> </a>创作的主题<a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank"> EasyBook<i class="icon-link1"></i> </a>非常感谢他的付出。
 
-- 于2020/2/4最后更新
+- 2020年2月4日 于2020年2月9日最后更新
 
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script type="text/javascript">
     window.onload=function(){
         // setTime()

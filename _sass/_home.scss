@@ -85,15 +85,17 @@
     }
     .previous,.next {
     	padding: 10px 20px;
-    	white-space: nowrap;
+        white-space: nowrap;
+        color: red;
     }
     a.previous,a.next {
-    	color: #333;
-    	border-radius: 20px;
-    	border: 1px solid #CCC;
+        // color: #333;
+        color: $color-link;
+    	// border-radius: 20px;
+    	// border: 1px solid #CCC;
     }
     a.previous:hover,a.next:hover {
-    	background: #fefefe;
+    	// background: #fefefe;
     	color: #000;
     	text-decoration:none;
     }

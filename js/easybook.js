@@ -234,7 +234,8 @@ function RealLoad() {
         var sc = document.createElement('script');
         sc.setAttribute('type', 'text/javascript');
         sc.setAttribute('async', 'true');
-        sc.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML');
+        // sc.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML');
+        sc.setAttribute('src', 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML');
         document.body.appendChild(sc);
     }
 }

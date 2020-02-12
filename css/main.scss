@@ -20,8 +20,8 @@ $on-laptop:        800px;
 $color-link: #036;
 $color-link-hover: #069;
 
-$header-bg: #607D8B;
-$header-bg-hover: #78909C;
+$header-bg: #0f0a3c;
+$header-bg-hover: #1a2849;
 $header-link: #CFD8DC;
 $header-fg: #FFF;
 
@@ -40,5 +40,6 @@ $header-fg: #FFF;
         "layout",
         "syntax-highlighting",
         "easybook",
+        "tooltip",
         "_custom"
 ;

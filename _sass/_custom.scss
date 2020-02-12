@@ -182,3 +182,72 @@
 .header .site-title {
   font-size: 18px;
 }
+
+// 取消公式选中框
+:focus{
+  outline: none;
+}
+
+// 自定义 sidebar profiles
+.contact{
+  font-size: 1.6em;
+  letter-spacing: 5px;
+}
+
+.col-box-author .contact {
+  margin-top: 5px;
+}
+
+.contact a {
+  color: #999;
+  display:inline-block;
+  transition: all 0.4s ease-in;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  // animation: shake-it .4s reverse infinite cubic-bezier(.68,-.55,.27,1.55);
+  // transform: rotate(360deg);
+  // -ms-transform: rotate(360deg);/*IE9*/
+  // -moz-transform: rotate(360deg);/*Firefox*/
+  // -webkit-transform: rotate(360deg);/*Safari 和 Chrome*/
+  // -o-transform: rotate(360deg);/*Opera*/
+}
+
+.avatar{
+  display: inline-block;
+  transition: all 0.4s ease-in;
+}
+.avatar:hover{
+  transform: rotate(360deg);
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);/*IE9*/
+  -moz-transform: rotate(360deg);/*Firefox*/
+  -webkit-transform: rotate(45deg);/*Safari 和 Chrome*/
+  -o-transform: rotate(360deg);/*Opera*/
+  transition: all 0.4s ease-in;
+}
+
+.col-box {
+  padding-bottom: 5px;
+}
+ 
+#profile_github:hover{
+  color: black;
+}
+#profile_email:hover{
+  color: red;
+}
+#profile_hs:hover{
+  color: #ffc129;
+  cursor: pointer;
+}
+#profile_tg:hover{
+  color: #1f95d4;
+}
+#profile_weibo:hover{
+  // color: #e6162d;
+  color: #EC0117;
+}
+// 自定义 sidebar profiles 结束
+
