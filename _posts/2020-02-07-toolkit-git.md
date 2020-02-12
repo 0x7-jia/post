@@ -13,10 +13,10 @@ permalink: /post/toolkti-git
 - `git config --global user.name '<user_name>'` 添加用户名
 - `git config --global user.email '<user_email>'` 添加邮箱
 
-> 以上两条命令中参数 `--global` 可以按照自己的需求替换<br>
-`--loacl`: 使配置信息仅在某一个 git 仓库中生效，优先级比 global 高<br>
-`--global`: 使配置信息作用在当前用户的所有仓库中<br>
-`--system`: 对系统中所有登录的用户均生效
+> 以上两条命令中参数 *--global* 可以按照自己的需求替换<br>
+*--loacl* : 使配置信息仅在某一个 git 仓库中生效，优先级比 global 高<br>
+*--global* : 使配置信息作用在当前用户的所有仓库中<br>
+*--system* : 对系统中所有登录的用户均生效
 
 
 # 初始化 git 仓库，完成本地提交

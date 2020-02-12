@@ -10,9 +10,22 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+    <hr>
+  <div class="post-nav">
+    {% if page.previous %}
+    <div class="post-nav-item post-nav-prev">上一篇：<a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+    {% else %}
+      <span>上一篇：没有上一篇了</span>
+    {% endif %}
+    {% if page.next %}
+    <div class="post-nav-item post-nav-next">下一篇：<a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
+    {% else %}
+      <span>下一篇：没有下一篇了</span>
+    {% endif %}
+  </div>
+  <hr>
     <p class="back-to-top shake-text" onclick="topFunction()"><i class="icofont-curved-double-right"></i>back to top<i class="icofont-curved-double-left"></i></p>
   </article>
-  
   {% include comment.html %}
 
 </div>
