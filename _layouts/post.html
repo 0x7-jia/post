@@ -15,12 +15,12 @@ layout: default
     {% if page.previous %}
     <div class="post-nav-item post-nav-prev">上一篇：<a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
     {% else %}
-      <span>上一篇：没有上一篇了</span>
+      <span style="color: #999;">上一篇：没有上一篇了</span>
     {% endif %}
     {% if page.next %}
     <div class="post-nav-item post-nav-next">下一篇：<a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
     {% else %}
-      <span>下一篇：没有下一篇了</span>
+      <span style="color: #999;">下一篇：没有下一篇了</span>
     {% endif %}
   </div>
   <hr>

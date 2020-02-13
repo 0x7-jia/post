@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Microsoft Office 2016 自定义安装<sup style='color:red'><i class='icon-link1'></i></sup>"
+title:  "Microsoft Office 2016 自定义安装"
 date:   2020-02-12 23:13
-categories: 搬运
+categories: 转载
 permalink: /post/install-office
 nocomments: true
 ---
@@ -84,11 +84,10 @@ UAC 弹窗确认后开始自动安装。不过这次可以很明显的看到不�
 
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>原文作者： </strong>Chawye Hsu</li>
+    <strong>原文作者： </strong><a href="https://www.h404bi.com/about" target="_blank">Chawye Hsu</a></li>
+  <li class="post-copyright-author">
+    <strong>图片来源： </strong><a href="https://www.h404bi.com/about" target="_blank">Chawye Hsu</a></li>
   <li class="post-copyright-link">
     <strong>原文链接：</strong>
-    <a href="https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide" title="Microsoft Office 2016 自定义安装" target="_blank">https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide</a>
-  </li>
-  <!-- <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！</li> -->
+    <a href="https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide" title="{{ page.title }}" target="_blank">https://www.h404bi.com/blog/2018/03/office-2016-custom-installation-guide</a></li>
 </ul>

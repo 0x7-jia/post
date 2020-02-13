@@ -176,6 +176,7 @@
   font-size: 1.2em;
   text-align: center;
   cursor: pointer;
+  margin-bottom: 0px;
 }
 
 .color_ff0b5{
@@ -268,17 +269,44 @@ blockquote:before {
   margin: 2em 0 0;
   padding: 0.5em 1em;
   border-left: 3px solid #ff1700;
-  background-color: #e0e0e0;
   list-style: none;
 }
 
 hr {
   border: 0;
   border-bottom: 1px dashed #ccc;
-  // background: #999;
 }
 
 .post-nav{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+// 适配ipad
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  .site-title{
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .col-main, .col-second {
+    width: auto;
+    float: none;
+  }
+  .col-box {
+    width: 40%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .col-box:not(:first-child){
+    border-top: none;
+  }
+  .header .site-nav {
+    display: block;
+  }
+  .header #sidebar-toggle{
+    display: none;
+  }
 }
