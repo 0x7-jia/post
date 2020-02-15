@@ -41,6 +41,7 @@
 
 .archive-group ul {
   list-style-type: circle;
+  padding-left: 20px;
 }
 
 .archive-group ul li:hover {
@@ -82,6 +83,7 @@
 .cates {
   // display: contents;
   list-style-type: none;
+  padding-left: 20px;
 }
 .cates li {
   list-style: none;
@@ -92,7 +94,7 @@
 }
 
 .links {
-  padding: 0px 0px 40px 50px;
+  padding: 0px 0px 40px 37px;
   margin-left: 17px;
 }
 
@@ -310,3 +312,9 @@ hr {
     display: none;
   }
 }
+
+h2 {
+  font-size: 22px;
+}
+
+

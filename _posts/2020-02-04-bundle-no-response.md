@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "bundle install命令执行后无响应"
+title:  "bundle install 命令执行后无响应"
 date:   2020-02-04 14:13
 categories: 疑难杂症
 permalink: /post/bundle-install

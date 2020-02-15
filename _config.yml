@@ -1,6 +1,6 @@
 # Site settings
 title: 念念不忘的小站
-url: ""    # the protocol and hostname of your site
+url: "www.thecho.me"    # the protocol and hostname of your site
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >

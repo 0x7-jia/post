@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git基础操作整理"
+title:  "git 基础操作整理"
 date:   2020-02-07 15:21
 categories: 工具包
 permalink: /post/toolkti-git
