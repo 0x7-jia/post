@@ -27,7 +27,6 @@ permalink: /about/
  
 - 2020年2月4日 于2020年2月13日最后更新
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script type="text/javascript">
     window.onload=function(){
         // setTime()
