@@ -212,12 +212,6 @@
 
 .contact a:hover {
   text-decoration: none;
-  // animation: shake-it .4s reverse infinite cubic-bezier(.68,-.55,.27,1.55);
-  // transform: rotate(360deg);
-  // -ms-transform: rotate(360deg);/*IE9*/
-  // -moz-transform: rotate(360deg);/*Firefox*/
-  // -webkit-transform: rotate(360deg);/*Safari 和 Chrome*/
-  // -o-transform: rotate(360deg);/*Opera*/
 }
 
 .avatar{
@@ -225,12 +219,12 @@
   transition: all 0.4s ease-in;
 }
 .avatar:hover{
-  transform: rotate(360deg);
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);/*IE9*/
-  -moz-transform: rotate(360deg);/*Firefox*/
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);/*IE9*/
+  -moz-transform: rotate(45deg);/*Firefox*/
   -webkit-transform: rotate(45deg);/*Safari 和 Chrome*/
-  -o-transform: rotate(360deg);/*Opera*/
+  -o-transform: rotate(45deg);/*Opera*/
   transition: all 0.4s ease-in;
 }
 

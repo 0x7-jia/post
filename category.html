@@ -10,7 +10,15 @@ permalink: /category/
   <ul class="cates">
     {% for cate in site.categories %}
     <li>
-        <a href="#{{ cate[0] }}"><i class="icon-hash"></i>{{ cate[0] }}</a> <sup style="color: red;">{{ cate[1].size }}</sup>
+      <a href="#{{ cate[0] }}" style='
+        {% if cate[1].size <= 5 %}
+            font-size: 16px;
+        {% elsif cate[1].size <= 10 %}
+            font-size: 24px;
+        {% elsif cate[1].size <= 15 %}
+            font-size: 28px;
+        {% endif %}
+      '><i class="icon-hash"></i>{{ cate[0] }}</a> <sup style="color: red;">{{ cate[1].size }}</sup>
     </li>
     {% endfor %}
 </ul>
