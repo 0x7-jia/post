@@ -94,7 +94,7 @@
 }
 
 .links {
-  padding: 0px 0px 40px 37px;
+  padding: 0px 0px 10px 37px;
   margin-left: 17px;
 }
 
@@ -179,6 +179,9 @@
   text-align: center;
   cursor: pointer;
   margin-bottom: 0px;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .color_ff0b5{
@@ -293,8 +296,8 @@ hr {
   .col-box {
     width: 40%;
     float: left;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
   .col-box:not(:first-child){
     border-top: none;
