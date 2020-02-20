@@ -21,7 +21,7 @@ permalink: /about/
 ## 关于我
 
 - 本博客用于记录自己在学习过程中遇到的问题以及相应的解决办法。
-- 您可以在 <a href="https://www.weibo.com/u/6087295124" target="_blank">新浪微博<i class="icon-link1"></i></a>、<a href="https://github.com/myhusky" target="_blank">Github<i class="icon-link1"></i></a> 找到我，您还可以发送 [电子邮件](mailto:MyHasky@hotmail.com) 与我取得联系。
+- 您可以在 <a href="https://www.weibo.com/u/6087295124" target="_blank">新浪微博<i class="icon-link1"></i></a>、<a href="https://github.com/myhusky" target="_blank">Github<i class="icon-link1"></i></a> 找到我，您还可以发送 [电子邮件<i class="icon-link1"></i>](mailto:MyHasky@hotmail.com) 与我取得联系。
 - 喜欢搓炉石，如果有喜欢炉石的小伙伴，也欢迎添加 `我想养条哈士奇#5537` 为好友。
 
 ## 特别感谢
@@ -80,9 +80,10 @@ permalink: /about/
             $this.innerHTML = initial;
         }, 30);
     }
+    var count = {{ count }} - {{ count }}*0.12
     NumAutoPlusAnimation("words", {
         time: 1800,
-        num: {{ count }},
+        num: count,
         regulator: 50
     })
 </script>

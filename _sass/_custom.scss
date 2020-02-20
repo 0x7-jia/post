@@ -314,4 +314,16 @@ h2 {
   font-size: 22px;
 }
 
+.hover-hash{
+  color: #30475e;
+  // text-shadow: 1px 1px #efefef, 2px 2px #fff1e9;
+}
 
+.hover-hash:hover::before{
+  position: absolute;
+  left: 63px;
+  content: "#";
+  font-size: 110%;
+  line-height: 1;
+  display: inline;
+}
