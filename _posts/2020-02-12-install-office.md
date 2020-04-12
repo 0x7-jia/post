@@ -5,6 +5,8 @@ date:   2020-02-12 23:13
 categories: 转载
 permalink: /post/install-office
 nocomments: true
+showExcerpt: true
+excerpt: "作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx 文档时，还是会乖乖就擒。只是没想到，Office 2016 这个 2.41GB 的安装镜像，居然是一个 Click-to-Run。"
 ---
 
 作为宇宙第一 IDE Visual Studio 的兄弟，宇宙第一办公套件 Office 在 Windows 系统下更加常见。新安装的系统，即使刚开始不愿安装，等到要查看编辑 docx pptx 文档时，还是会乖乖就擒。只是没想到，Office 2016 这个 2.41GB 的安装镜像，居然是一个 Click-to-Run。

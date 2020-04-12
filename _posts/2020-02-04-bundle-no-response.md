@@ -4,6 +4,8 @@ title:  "bundle install 命令执行后无响应"
 date:   2020-02-04 14:13
 categories: 疑难杂症
 permalink: /post/bundle-install
+showExcerpt: true
+excerpt: "从网上下载jekyll主题后，执行`bundle install`安装依赖的时候，有时候等待很久命令行都没有反应，可以尝试换成国内的源。"
 ---
 
 从网上下载jekyll主题后，执行`bundle install`安装依赖的时候，有时候等待很久命令行都没有反应，可以尝试换成国内的源。

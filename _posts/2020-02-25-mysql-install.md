@@ -5,6 +5,8 @@ date: 2020-02-25 13:41
 categories: '环境配置'
 permalink: /post/insatll-mysql
 nocomments: false
+showExcerpt: true
+excerpt: "最近有需要使用到 MySQL 数据库，折腾了一番后，终于在 Windows 10 上配置好了64位的 MySQL 5.7 免安装版数据库"
 ---
 
 最近有需要使用到 MySQL 数据库，折腾了一番后，终于在 Windows 10 上配置好了64位的 MySQL 5.7 免安装版数据库
