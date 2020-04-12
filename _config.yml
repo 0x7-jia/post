@@ -43,7 +43,7 @@ permalink: /post/:title
 plugins:
  - jekyll-paginate
  - jekyll-gist
- - jekyll-seo-tag
+#  - jekyll-seo-tag
 
 # Build settings
 paginate: 5
