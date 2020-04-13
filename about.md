@@ -16,7 +16,7 @@ permalink: /about/
 - 运行天数 <span id="htmer_time" class="color_ff0b5">0</span> 天
 - 最后活动 <span id="activity_time" data-year="{{ site.posts[0].date| slice: 0,4 }}" data-month="{{ site.posts[0].date| slice: 5,2 }}" data-day="{{ site.posts[0].date| slice: 8,2 }}" class="color_ff0b5">0</span> 天前
 - 总访问量 <span id="busuanzi_value_site_pv" class="color_ff0b5">0</span> 次
-- 字数统计 {% if count > 10000 %}{{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}{% else %}<span class="color_ff0b5" id="words">0</span> 字{% endif %} 
+- 字数统计 <span class="color_ff0b5" id="words">0</span> 字
 
 ## 关于我
 
