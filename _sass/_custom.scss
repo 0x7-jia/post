@@ -258,7 +258,7 @@ blockquote:before {
   position: absolute;
   left: -1.51113rem;
   content: "“";
-  font-family: "Noto Serif SC","Source Han Serif SC",STFangsong,FangSong,FangSong_GB2312;
+  font-family: 'Noto Sans SC',"Source Han Serif SC",STFangsong,FangSong,FangSong_GB2312;
   font-size: 300%;
   font-weight: 700;
   line-height: 1;
@@ -343,6 +343,18 @@ h2 {
 
 .books-cover-img {
   width: 160px;
+}
+
+figure {
+  margin: 0 -30px;
+}
+
+.mycode{
+  margin: 0, -30px;
+  color: #110133;
+  background-color: #f1f3f4;
+  overflow-x: auto;
+  padding: 20px 50px;
 }
 
 @import 
