@@ -13,9 +13,9 @@ excerpt: "最近有需要使用到 MySQL 数据库，折腾了一番后，终于
 
 ## 在官网下载 MySQL
 
-- 选择合适的 MySQL Community Server 版本: <a href='https://downloads.mysql.com/archives/community/' target='_blank'>传送门<i class='icon-link1'></i></a>
-- mysql-5.7.28-winx64.zip: <a href='https://cdn.mysql.com/archives/mysql-5.7/mysql-5.7.28-winx64.zip' target='_blank'>download <i class='icon-download2'></i></a>
-- mysql-5.7.28-win32.zip: <a href='https://cdn.mysql.com/archives/mysql-5.7/mysql-5.7.28-win32.zip' target='_blank'>download <i class='icon-download2'></i></a>
+- 选择合适的 MySQL Community Server 版本: <a href='https://downloads.mysql.com/archives/community/' target='_blank' class='high-a'>传送门<i class='icon-link1'></i></a>
+- mysql-5.7.28-winx64.zip: <a href='https://cdn.mysql.com/archives/mysql-5.7/mysql-5.7.28-winx64.zip' target='_blank' class='high-a'>download <i class='icon-download2'></i></a>
+- mysql-5.7.28-win32.zip: <a href='https://cdn.mysql.com/archives/mysql-5.7/mysql-5.7.28-win32.zip' target='_blank' class='high-a'>download <i class='icon-download2'></i></a>
 
 ## 解压文件
 

@@ -55,7 +55,7 @@ $ git commit --amend
 # 本地仓库关联远程仓库
 
 - `git remote add <origin_name> <addr>` **origin_name** 填写远程仓库的名字，github 中默认为 **origin**，**addr** 填写远程仓库的地址
-- `git push -u <origin_name> <master>` 将本地仓库推送至远程 **origin_name** 仓库的 **master** 分支上，关于<a href="https://www.zhihu.com/question/20019419" target="_blank">`-u`参数</a>详情
+- `git push -u <origin_name> <master>` 将本地仓库推送至远程 **origin_name** 仓库的 **master** 分支上，关于<a href="https://www.zhihu.com/question/20019419" target="_blank" class='high-a'>`-u`参数</a>详情
 - `git remote -v` 显示关联的远程仓库的信息
 - `git remote rename <old_origin_name> <new_origin_name>` 重命名远程仓库
 - `git remote rm <origin_name>` 移除关联的远程仓库 

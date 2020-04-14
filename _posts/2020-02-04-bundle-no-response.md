@@ -17,4 +17,4 @@ excerpt: "从网上下载jekyll主题后，执行`bundle install`安装依赖的
 $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 ~~~
 
-更多详细信息请前往 <a href="https://gems.ruby-china.com/" target="_blank">ruby-china <i class="icon-link1"></i></a>
+更多详细信息请前往 <a href="https://gems.ruby-china.com/" target="_blank" class='high-a'>ruby-china <i class="icon-link1"></i></a>

@@ -1,6 +1,6 @@
 /* 设置滚动条的样式 */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 9px;
 }
 /* 滚动槽 */
 ::-webkit-scrollbar-track {
@@ -349,8 +349,18 @@ figure {
   margin: 0 -30px;
 }
 
-.post p a {
-  text-decoration: underline;
+.high-a {
+  color: #721b65;
+}
+
+// 手机适配
+@include media-query($on-palm) {
+  figure {
+    margin: 0;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
 }
 
 @import 

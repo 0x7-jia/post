@@ -23,7 +23,7 @@ SIZE 2.41GB
 
 # 卸载已安装的 Office
 
-在<a href="https://support.office.com/en-us/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8" target="_blank">Office 官方文档库</a>里，选择第 2 种方法：
+在<a href="https://support.office.com/en-us/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8" target="_blank" class='high-a'>Office 官方文档库</a>里，选择第 2 种方法：
 
 >Option 2 - Completely uninstall Office 2016 with the easy fix tool
 
@@ -38,7 +38,7 @@ SIZE 2.41GB
 ![](https://myhusky.oss-cn-beijing.aliyuncs.com/Echo/images/install-office/20180324004-d0e49d82.jpg)
 <center>安装镜像解压后</center>
 
-**第二步：** 下载 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" target="_blank">Office 2016 Deployment Tool</a>。执行后会解压出两个文件，一个是configuration.xml，另一个是 setup.exe。将两个文件覆盖到刚刚解压的镜像文件夹内（也可以改名备份原来的 setup.exe）。
+**第二步：** 下载 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" target="_blank" class='high-a'>Office 2016 Deployment Tool</a>。执行后会解压出两个文件，一个是configuration.xml，另一个是 setup.exe。将两个文件覆盖到刚刚解压的镜像文件夹内（也可以改名备份原来的 setup.exe）。
 
 ![](https://myhusky.oss-cn-beijing.aliyuncs.com/Echo/images/install-office/20180324005-10a02c45.jpg)
 

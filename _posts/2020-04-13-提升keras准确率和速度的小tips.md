@@ -9,7 +9,7 @@ showExcerpt: true
 excerpt: '这里记录一下对于新手(对,说的就是本人)学习kears框架时用来提升准确率的一些tip,但这里都是”术”的层面,而对于”道”,还是要看数学.全文以深度学习界的”hello world”-手写数字识别为例.'
 ---
 
-这里记录一下对于新手(对,说的就是本人)学习kears框架时用来提升准确率的一些tip,但这里都是”术”的层面,而对于”道”,还是要看数学.全文以深度学习界的”hello world”-<a href='http://yann.lecun.com/exdb/mnist/' target='_blank'>手写数字识别</a>为例.
+这里记录一下对于新手(对,说的就是本人)学习kears框架时用来提升准确率的一些tip,但这里都是”术”的层面,而对于”道”,还是要看数学.全文以深度学习界的”hello world”-<a href='http://yann.lecun.com/exdb/mnist/' target='_blank' class='high-a'>手写数字识别</a>为例.
 
 首先载入所需要的库:
 {% highlight Python %}
@@ -103,7 +103,7 @@ Train Accc: 0.09910000115633011
 Test Accc: 0.10320000350475311
 ~~~
 
-WTF?!准确度反而降低了??这里其实和`sigmoid`这个函数有关,这个函数会导致**vanish gradient problem**.简言之就是使用这个函数进行训练时层数越多,每次参数变化引起结果变化的程度就越小,因为`sigmoid`函数会把不论大小的输入都转化到0-1这个区间中,具体看其 <a href='https://baike.baidu.com/item/Sigmoid%E5%87%BD%E6%95%B0' target='_blank'>函数图像</a> 就可以明白了.
+WTF?!准确度反而降低了??这里其实和`sigmoid`这个函数有关,这个函数会导致**vanish gradient problem**.简言之就是使用这个函数进行训练时层数越多,每次参数变化引起结果变化的程度就越小,因为`sigmoid`函数会把不论大小的输入都转化到0-1这个区间中,具体看其 <a href='https://baike.baidu.com/item/Sigmoid%E5%87%BD%E6%95%B0' target='_blank' class='high-a'>函数图像</a> 就可以明白了.
 
 ## 合适的激活函数
 
@@ -245,7 +245,7 @@ Train Accc: 0.9824030212854031
 Test Accc: 0.6224999713897705
 ~~~
 
-可以看到测试集精度提升了一些.当然,除了Dropout之外可以 <a href='https://keras.io/getting-started/faq/#how-can-i-interrupt-training-when-the-validation-loss-isnt-decreasing-anymore' target='_blank'>Early Stopping</a> 和Regularization(正则化,简单说就是使用某种方法使结果越来越接近0,Weight Decay,但这个帮助并不显著.)
+可以看到测试集精度提升了一些.当然,除了Dropout之外可以 <a href='https://keras.io/getting-started/faq/#how-can-i-interrupt-training-when-the-validation-loss-isnt-decreasing-anymore' target='_blank' class='high-a'>Early Stopping</a> 和Regularization(正则化,简单说就是使用某种方法使结果越来越接近0,Weight Decay,但这个帮助并不显著.)
 
 ## 特征工程!
 
