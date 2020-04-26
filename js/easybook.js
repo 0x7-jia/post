@@ -221,7 +221,7 @@ function RealLoad() {
     );
 
     PalmSidebar();
-    SelectAllize("pre.highlight", "Dblclick to select all");
+    SelectAllize("figure", "Dblclick to select all");
 
     var imgs = document.querySelectorAll('.post-content > p > img');
     for (var i = imgs.length; i--;) {
