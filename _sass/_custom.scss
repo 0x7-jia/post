@@ -363,6 +363,15 @@ figure {
   }
 }
 
+// 多余字符不显示
+a.post-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
 @import 
   "tagcolor"
 ;
