@@ -9,7 +9,7 @@ description: >
 # Your information
 email: myhasky@hotmail.com
 author: Jia Qi
-avatar: "https://www.thecho.me/img/photo.jpg"
+avatar: "/img/photo.jpg"
 profile: A Student <i class="icofont-location-pin"></i> In Xi'an.
 #twitter_username: twitter_username
 github_username:  myhusky
@@ -18,9 +18,9 @@ email_username: mailto:MyHasky@hotmail.com
 hearthstone_username: 我想养条哈士奇#5537
 
 profile_links:
-  Email: "mailto:MyHasky@hotmail.com"
+  Email: "mailto:echo.me@hotmail.com"
   Weibo: "https://weibo.com/u/6087295124"
-  TG: "https://t.me/userecho"
+  TG: "https://t.me/RainbowsFUN"
   GitHub: "https://github.com/myhusky"
   HS: "我想养条哈士奇#5537"
   # You can add more profile links above, or edit _includes/sidebar.html 
