@@ -21,8 +21,13 @@ permalink: /about/
 ## 关于我
 
 - 本博客用于记录自己在学习过程中遇到的问题以及相应的解决办法。
-- 您可以在 <a href="https://www.weibo.com/u/6087295124" target="_blank" class='high-a'>新浪微博<i class="icon-link1"></i></a>、<a href="https://github.com/myhusky" target="_blank" class='high-a'>Github<i class="icon-link1"></i></a> 找到我，您还可以发送 <a href='mailto:MyHasky@hotmail.com' target='_blank' class='high-a'>电子邮件<i class="icon-link1"></i></a> 与我取得联系。
-- 喜欢搓炉石，如果有喜欢炉石的小伙伴，也欢迎添加 `我想养条哈士奇#5537` 为好友。
+- 您可以在 <a href="{{site.profile_links.Weibo}}" target="_blank" class='high-a'>新浪微博<i class="icon-link1"></i></a>、<a href="{{site.profile_links.GitHub}}" target="_blank" class='high-a'>Github<i class="icon-link1"></i></a> 找到我，您还可以发送 <a href='{{site.profile_links.Email}}' target='_blank' class='high-a'>电子邮件<i class="icon-link1"></i></a> 与我取得联系。
+- 喜欢搓炉石，如果有喜欢炉石的小伙伴，也欢迎添加 `{{site.profile_links.HS}}` 为好友。
+
+
+## 2020 我的目标
+
+- 修心
 
 ## 特别感谢
 
@@ -32,7 +37,7 @@ permalink: /about/
 
 - 除非在文章尾部单独说明，否则默认采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" class='high-a'>署名 4.0 国际 (CC BY 4.0) </a>进行许可。
  
-- 2020年2月4日 于2020年2月18日最后更新
+- 2020年2月4日 于2020年5月12日最后更新
 
 <script type="text/javascript">
     window.onload=function(){
