@@ -1,7 +1,7 @@
 # Site settings
 title: 念念不忘的小站
 url: "www.thecho.me"    # the protocol and hostname of your site
-baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+baseurl: "/post" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
   路漫漫其修远兮，吾将上下而求索。
@@ -9,7 +9,7 @@ description: >
 # Your information
 email: myhasky@hotmail.com
 author: Jia Qi
-avatar: "/img/photo.jpg"
+avatar: "/post/img/photo.jpg"
 profile: A Student <i class="icofont-location-pin"></i> In Xi'an.
 #twitter_username: twitter_username
 github_username:  myhusky
