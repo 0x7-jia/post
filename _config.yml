@@ -34,10 +34,10 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    关于我: /about/
-    分类: /category/
-    友链: /link/
-    归档: /archives/
+    关于我: /post/about/
+    分类: /post/category/
+    友链: /post/link/
+    归档: /post/archives/
 
 permalink: /post/:title
 plugins:
